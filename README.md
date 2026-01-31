@@ -25,4 +25,4 @@ While C++ provides the computational speed for individual metrics, Python provid
 
 ## Project Visualization
 ### 1. Conceptual Player Value Analysis Model
-![Player Value Chart](Advanced Player Value Prediction Analysis.png)
+![Player Value Chart](Advanced-Player-Value-Prediction-Analysis.png)
