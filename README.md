@@ -22,3 +22,7 @@ While C++ provides the computational speed for individual metrics, Python provid
 ##  Sample Output
 - **Model Accuracy:** High R² Score due to optimized Ridge parameters.
 - **Visuals:** Included regression plots showing the correlation between player ratings and financial value.
+
+## Project Visualization
+### 1. Conceptual Player Value Analysis Model
+![Player Value Chart](Advanced Player Value Prediction Analysis.png)
