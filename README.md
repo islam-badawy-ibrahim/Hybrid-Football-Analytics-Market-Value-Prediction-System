@@ -1,29 +1,24 @@
-# Hybrid Football Analytics & Market Value Predictor ⚽📊
+# Hybrid Football Analytics & Market Value Prediction System ⚽📊
 
-##  Overview
-This project is a sophisticated hybrid system designed to demonstrate the integration of **Low-level programming (C++)** and **High-level Data Science (Python)**. It analyzes football player performance metrics and predicts their transfer market values using Machine Learning.
+##  Project Overview
+This project is a high-performance hybrid system developed to demonstrate the integration of **Low-level programming (C++)** and **Advanced Data Science (Python)**. It is designed to analyze football player performance and predict market transfer values using Machine Learning.
 
-##  System Architecture
+##  Components
 
-### 1. Performance Engine (C++)
-- **Located in:** `/performance_engine`
-- **Purpose:** Handles intensive calculations for individual player efficiency.
-- **Why C++?** To demonstrate proficiency in memory management and high-speed execution for core algorithmic logic.
+### 1. Performance Calculation Engine (C++)
+- **Core Logic:** Uses a precise mathematical model to calculate "Efficiency Per 90 Minutes".
+- **Technical Highlight:** Demonstrates proficiency in memory efficiency, data types, and high-speed execution.
+- **Role:** Handles the raw statistical processing of player match data.
 
-### 2. Data Intelligence Module (Python)
-- **Located in:** `/data_science_model`
-- **Purpose:** Performs Exploratory Data Analysis (EDA) and predictive modeling.
-- **Tech Stack:** Pandas, Scikit-Learn, Matplotlib, Seaborn.
-- **Algorithm:** Linear Regression model trained on key attributes like Age, Potential, and Overall Rating.
+### 2. Market Intelligence Module (Python)
+- **Model:** Built using **Ridge Regression** for high accuracy on specialized datasets.
+- **Preprocessing:** Implements `StandardScaler` to normalize features (Age, Overall Rating, Potential).
+- **Visualization:** Uses `Seaborn` and `Matplotlib` to provide advanced statistical trends.
+- **Predictive Capability:** Includes a function to estimate the market value of any new player based on their attributes.
 
+##  How the System is Integrated
+While C++ provides the computational speed for individual metrics, Python provides the analytical depth. This combination is essential for modern **Data Science** roles where performance and scalability are key.
 
-
-##  Project Structure
-```text
-.
-├── performance_engine/
-│   └── calculator.cpp       # C++ Source Code
-├── data_science_model/
-│   ├── predict_value.py     # Python ML Script
-│   └── players.csv          # Sample Dataset
-└── README.md                # Project Documentation
+##  Sample Output
+- **Model Accuracy:** High R² Score due to optimized Ridge parameters.
+- **Visuals:** Included regression plots showing the correlation between player ratings and financial value.
